@@ -1,0 +1,28 @@
+
+### .gitignore File
+Here’s the `.gitignore` file:
+
+```plaintext
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Build files
+dist/

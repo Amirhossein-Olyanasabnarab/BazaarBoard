@@ -1,0 +1,32 @@
+{
+  "name": "bazaarboard",
+  "version": "1.0.0",
+  "description": "BazaarBoard is a web-based platform inspired by Divar.ir",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirhossein-Olyanasabnarab/BazaarBoard.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "js",
+    "mongo",
+    "db",
+    "odm"
+  ],
+  "author": "Amir Hossein Olyanasab Narab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amirhossein-Olyanasabnarab/BazaarBoard/issues"
+  },
+  "homepage": "https://github.com/Amirhossein-Olyanasabnarab/BazaarBoard#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  }
+}
