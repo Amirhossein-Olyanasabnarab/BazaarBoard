@@ -1,12 +1,14 @@
-const express = require('express');
+const express = require("express");
+require("dotenv").config();
 
-async function main(){
-    const app = express()
-    require('dotenv').config();
+async function main() {
+  const app = express();
 
-    const PORT = process.env.PORT;
-    const DB_HOST = process.env.DB_HOST;
-    
-    app.listen(PORT, ()=> console.log(`Server is running on http://localhost:${PORT}`))
-};
+  const PORT = process.env.PORT;
+  require("./src/config/mongoose.config.js");
+  
+  app.listen(PORT, () =>
+    console.log(`Server is running on http://localhost:${PORT}`)
+  );
+}
 main();
